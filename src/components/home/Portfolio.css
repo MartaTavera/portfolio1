@@ -1,0 +1,130 @@
+.portfolio {
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f9fafb;
+  }
+  
+  .header {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #111827;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .social-links a:hover {
+    color: #111827;
+  }
+  
+  .projects {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #111827;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #111827;
+  }
+  
+  .project-card p {
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tag {
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .project-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .project-links a:hover {
+    color: #111827;
+  }
