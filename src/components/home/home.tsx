@@ -19,7 +19,7 @@ const Portfolio = () => {
       description: "A web application based on one of NASA's APIs",
       tags: ["React", "Node.js", "Typescript"],
       githubLink: "https://github.com/MartaTavera/Mars-Mission",
-      liveLink: "https://MartaTavera.github.io/Mars-Mission/)"
+      liveLink: "https://MartaTavera.github.io/Mars-Mission/"
     },
     {
       title: "Project 2",
