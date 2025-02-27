@@ -1,6 +1,8 @@
 import React from 'react';
 import './Portfolio.css';
 import githubIcon from './assets/github-icon.png';
+import projects from '../projects/ProjectsInfo';
+import { Project } from '../projects/ProjectsInfo';
 
 
 const Portfolio = () => {
@@ -9,26 +11,11 @@ const Portfolio = () => {
     title: "Software Developer",
     description: "I'm a passionate developer focused on creating impactful web applications.",
     email: "martatatvera@gmail.com",
-    github: "https://github.com/MartaTavera.com",
-    linkedin: "www.linkedin.com/in/marta-tavera-3421a823"
+    github: "https://github.com/MartaTavera",
+    linkedin: "https://www.linkedin.com/in/marta-tavera-3421a823/"
   };
 
-  const projects = [
-    {
-      title: "Mars Mission",
-      description: "A web application based on one of NASA's APIs",
-      tags: ["React", "Node.js", "Typescript"],
-      githubLink: "https://github.com/MartaTavera/Mars-Mission",
-      liveLink: "https://MartaTavera.github.io/Mars-Mission/"
-    },
-    {
-      title: "Project 2",
-      description: "Real-time chat application using WebSocket",
-      tags: ["React", "Socket.io", "Express"],
-      githubLink: "https://github.com/yourusername/project2",
-      liveLink: "https://project2.example.com"
-    }
-  ];
+  
 
   return (
     <div className="portfolio">
