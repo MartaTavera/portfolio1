@@ -24,11 +24,11 @@ const projects: Project[]= [
       tags: ["React", "Socket.io", "Express"],
       githubLink: "https://github.com/MartaTavera/Whalespotting",
       liveLink: "https://whalespotting.onrender.com"
-    }
+    },
     {
       title: "BusBoard",
       description: "Real-time  application using WebSocket",
-      tags: ["Node", "Socket.io", "Express"],
+      tags: ["Node", "Socket.io", "Express", "JavaScript"],
       githubLink: "https://github.com/MartaTavera/Busboard/",
       liveLink: "https://busboard.onrender.com"
       //liveLink: "https://whalespotting.onrender.com"
