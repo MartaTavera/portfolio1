@@ -1,6 +1,8 @@
 import React from 'react';
 import './Portfolio.css';
-import githubIcon from './assets/github-icon.png';
+import GithubIcon from '../../assets/GitHub.png';
+import LinkedinIcon from '../../assets/Linkedin.png';
+import EmailIcon from '../../assets/EmailIcon.png';
 import projects from '../projects/ProjectsInfo';
 import { Project } from '../projects/ProjectsInfo';
 
@@ -25,14 +27,11 @@ const Portfolio = () => {
         <p>{personalInfo.description}</p>
         
         <div className="social-links">
-          <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">
-            GitHub
+          <a href={personalInfo.github}   target="_blank" rel="noopener noreferrer"><img className="icon" src={GithubIcon} alt="Github icon"/>
           </a>
-          <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
-            LinkedIn
+          <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer"><img className="icon" src={LinkedinIcon} alt="Linkedin icon"/>
           </a>
-          <a href={`mailto:${personalInfo.email}`}>
-            Email
+          <a href={`mailto:${personalInfo.email}` }><img className="icon" src={EmailIcon} alt="Email icon"/>
           </a>
         </div>
       </header>

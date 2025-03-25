@@ -32,6 +32,13 @@ const projects: Project[]= [
       githubLink: "https://github.com/MartaTavera/Busboard/",
       liveLink: "https://busboard.onrender.com"
       //liveLink: "https://whalespotting.onrender.com"
+    },
+    {
+      title:"TimesTables",
+      description: "React applicaition that gives random multiplication questions",
+      tags:["React", "TypeScript"],
+      githubLink: "https://github.com/MartaTavera/TimesTables",
+      liveLink:"https://MartaTavera.github.io/TimesTables/"
     }
   ];
 export default projects
