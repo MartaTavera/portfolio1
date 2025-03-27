@@ -1,8 +1,10 @@
 .portfolio {
-    min-height: 100vh;
-    padding: 2rem;
-    background-color: #c2d573;
-  }
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  box-sizing: border-box; 
+}
   
   .header {
     max-width: 800px;
@@ -50,17 +52,17 @@
     color: #111827;
   }
   
-  .projects {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
   .projects h2 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
     color: #111827;
+  }
+  
+  .projects {
+    width: 100%; 
+    margin: 0 auto;
   }
   
   .projects-grid {
@@ -76,7 +78,7 @@
   }
   
   .project-card {
-    background-color: rgb(76, 72, 72);
+    background-color:#E0FFFF;
     border-radius: 0.5rem;
     padding: 1.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -107,7 +109,7 @@
   }
   
   .tag {
-    background-color: #f8f80f;
+    background-color: #87CEEB;
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-size: 0.875rem;
@@ -126,7 +128,7 @@
     color: #4b5563;
     text-decoration: none;
     transition: color 0.2s;
-    background-color: aqua;
+    ;
   }
   
   .project-links a:hover {

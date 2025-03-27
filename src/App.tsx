@@ -1,5 +1,5 @@
 
-import './App.css'
+import './index.css'
 import Portfolio from './components/home/home'
 
 const App: React.FC = () => {
