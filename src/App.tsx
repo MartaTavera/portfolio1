@@ -1,6 +1,6 @@
 
 import './index.css'
-import Portfolio from './components/home/home'
+import Portfolio from './components/home/home.tsx'
 
 const App: React.FC = () => {
 

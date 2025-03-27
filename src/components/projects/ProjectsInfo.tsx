@@ -1,4 +1,8 @@
 
+import MarsMissionImg from "../../assets/Mars-Mission.png"
+import WhaleSpottingImg from "../../assets/WhaleSpotting.png"
+import BusBoardImg from "../../assets/BusBoard.png"
+import TimesTablesImg from "../../assets/TimesTables.png"
 
 export interface Project {
     title: string;
@@ -13,13 +17,15 @@ export interface Project {
 const projects: Project[]= [
     {
       title: "Mars Mission",
+      image: MarsMissionImg,
       description: "A web application based on one of NASA's APIs",
       tags: ["React", "Node.js", "Typescript"],
       githubLink: "https://github.com/MartaTavera/Mars-Mission",
       liveLink: "https://MartaTavera.github.io/Mars-Mission/"
     },
     {
-      title: "Whale Spoting",
+      title: "Whale Spotting",
+      image: WhaleSpottingImg,
       description: "Real-time  application using WebSocket",
       tags: ["React", "Socket.io", "Express"],
       githubLink: "https://github.com/MartaTavera/Whalespotting",
@@ -27,6 +33,7 @@ const projects: Project[]= [
     },
     {
       title: "BusBoard",
+      image:BusBoardImg,
       description: "Real-time  application using WebSocket",
       tags: ["Node", "Socket.io", "Express", "JavaScript"],
       githubLink: "https://github.com/MartaTavera/Busboard/",
@@ -35,6 +42,8 @@ const projects: Project[]= [
     },
     {
       title:"TimesTables",
+      image:TimesTablesImg,
+
       description: "React applicaition that gives random multiplication questions",
       tags:["React", "TypeScript"],
       githubLink: "https://github.com/MartaTavera/TimesTables",
