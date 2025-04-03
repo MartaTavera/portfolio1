@@ -18,7 +18,7 @@ const projects: Project[]= [
     {
       title: "Mars Mission",
       image: MarsMissionImg,
-      description: "A web application based on one of NASA's APIs",
+      description: "Interactive web application built with React and TypeScript that showcases NASA's Mars exploration data through their API. Built as a group project, the application features several interconnected components that allow users to explore Mars rover imagery, learn about women in space, discover fun facts about Mars, and engage with educational content about space exploration.",
       tags: ["React", "Node.js", "Typescript"],
       githubLink: "https://github.com/MartaTavera/Mars-Mission",
       liveLink: "https://MartaTavera.github.io/Mars-Mission/"
@@ -26,26 +26,25 @@ const projects: Project[]= [
     {
       title: "Whale Spotting",
       image: WhaleSpottingImg,
-      description: "Real-time  application using WebSocket",
-      tags: ["React", "Socket.io", "Express"],
+      description: "Real-time  application using WebSocket. This website, created as a group project, serves as a hub for whale spotting. Users can register and share their whale sightings through posts. To assist users with their posts, the site provides information about various whale species. Additionally, for those planning whale spotting trips, details on prime locations, ideal seasons, and local weather conditions are available. The site also features an achievement system to reward active users and encourage greater participation in whale spotting.",
+      tags: ["C#", "PostgreSQL", "React", "Bootstrap", "Express"],
       githubLink: "https://github.com/MartaTavera/Whalespotting",
       liveLink: "https://whalespotting.onrender.com"
     },
     {
       title: "BusBoard",
       image:BusBoardImg,
-      description: "Real-time  application using WebSocket",
-      tags: ["Node", "Socket.io", "Express", "JavaScript"],
+      description: "BusBoard is a command-line interface (CLI) application that provides real-time bus arrival information for locations in London using the Trasport for london and Postcodes.io APIs. Users can search by postcode to find the next five buses arriving at the two closest bus stops within a 500-meter radius. The application displays bus numbers, destinations, and arrival times in minutes for each stop.t",
+      tags: ["Node", "WebSockets", "Express", "JavaScript", "REST API", "Xterm",],
       githubLink: "https://github.com/MartaTavera/Busboard/",
       liveLink: "https://busboard.onrender.com"
-      //liveLink: "https://whalespotting.onrender.com"
     },
     {
       title:"TimesTables",
       image:TimesTablesImg,
 
-      description: "React applicaition that gives random multiplication questions",
-      tags:["React", "TypeScript"],
+      description: "This multiplication quiz app presents users with a sequence of multiplication questions, tracks the score, and provides immediate feedback on their answers.",
+      tags:["React", "TypeScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/TimesTables",
       liveLink:"https://MartaTavera.github.io/TimesTables/"
     }
