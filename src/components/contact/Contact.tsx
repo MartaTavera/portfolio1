@@ -1,11 +1,14 @@
-
+import './Contact.css'
 
 export default function Contact(){
 
     return(
-        <><h1>Contact Me </h1><div>
-            mynewemailaddress@somemail.com
-        </div></>
+
+        <div className="ContactContainer" id="contact">
+            <h1>Contact Me </h1>
+            <p>mynewemailaddress@somemail.com</p>
+            Cambia algo?
+        </div>
     )
 
 }

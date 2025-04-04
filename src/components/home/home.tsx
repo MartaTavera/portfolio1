@@ -1,11 +1,11 @@
-import './Portfolio.css';
+import './Portfolio.css'
 import GithubIcon from '../../assets/GitHub.png';
 import LinkedinIcon from '../../assets/Linkedin.png';
 import EmailIcon from '../../assets/EmailIcon.png';
-import projects from '../projects/ProjectsInfo';
 
 
-const Portfolio = () => {
+const Home = () =>{
+
   const personalInfo = {
     name: "Marta Tavera",
     title: "Software Developer",
@@ -15,7 +15,6 @@ const Portfolio = () => {
     linkedin: "https://www.linkedin.com/in/marta-tavera-3421a823/"
   };
 
-  
 
   return (
     <div className="portfolio">
@@ -33,43 +32,7 @@ const Portfolio = () => {
           </a>
         </div>
       </header>
-
-      <section className="projects">
-        <h2>Projects</h2>
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <div className="project-info">
-                <h3>{project.title}</h3>
-                 <div className="project-image">   
-                  <img src={project.image}></img>
-                  </div>
-                  <div className="project-links">
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    Code
-                  </a>
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                    Demo
-                  </a>
-                </div>
-                <p>{project.description}</p>
-                   <div className="tags">
-                      {project.tags.map((tag, tagIndex) => (
-                      <span key={tagIndex} className="tag">
-                        {tag}
-                      </span>
-                      ))}
-                    </div>
-              
-              
-                 
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
-  );
+  )
 };
-
-export default Portfolio;
+export default Home;

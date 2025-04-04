@@ -1,4 +1,7 @@
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
     display: flex;
     justify-content: end;
     gap:15rem;
