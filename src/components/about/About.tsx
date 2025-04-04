@@ -3,7 +3,7 @@
  
     return(
         <div className="aboutContainer" id="about">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <div className="textContainer">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 

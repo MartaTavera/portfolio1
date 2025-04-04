@@ -26,7 +26,7 @@ const projects: Project[]= [
     {
       title: "Whale Spotting",
       image: WhaleSpottingImg,
-      description: "Real-time  application using WebSocket. This website, created as a group project, serves as a hub for whale spotting. Users can register and share their whale sightings through posts. To assist users with their posts, the site provides information about various whale species. Additionally, for those planning whale spotting trips, details on prime locations, ideal seasons, and local weather conditions are available. The site also features an achievement system to reward active users and encourage greater participation in whale spotting.",
+      description: "Real-time  application using WebSocket. This website, created as a group project, serves as a hub for whale spotting. Users can register and share their whale sightings through posts. To assist users the site provides information about various whale species. Additionally, for those planning whale spotting trips, details on prime locations, ideal seasons, and local weather conditions are available. The site also features an achievement system to reward active users..",
       tags: ["C#", "PostgreSQL", "React", "Bootstrap", "Express"],
       githubLink: "https://github.com/MartaTavera/Whalespotting",
       liveLink: "https://whalespotting.onrender.com"
@@ -43,7 +43,7 @@ const projects: Project[]= [
       title:"TimesTables",
       image:TimesTablesImg,
 
-      description: "This multiplication quiz app presents users with a sequence of multiplication questions, tracks the score, and provides immediate feedback on their answers.",
+      description: "This interactive multiplication quiz app presents users with a sequence of randomly generated multiplication questions. The app  provides immediate feedback on their answers upon submission and displays a score summarising user perfomance.",
       tags:["React", "TypeScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/TimesTables",
       liveLink:"https://MartaTavera.github.io/TimesTables/"

@@ -9,7 +9,7 @@ const Portfolio = () => {
   const personalInfo = {
     name: "Marta Tavera",
     title: "Software Developer",
-    description: "I'm a passionate developer focused on creating impactful web applications.",
+    description: "I'm a passionate full-stack developer focused on creating impactful web applications.",
     email: "martatatvera@gmail.com",
     github: "https://github.com/MartaTavera",
     linkedin: "https://www.linkedin.com/in/marta-tavera-3421a823/"
@@ -41,6 +41,17 @@ const Portfolio = () => {
             <div key={index} className="project-card">
               <div className="project-info">
                 <h3>{project.title}</h3>
+                 <div className="project-image">   
+                  <img src={project.image}></img>
+                  </div>
+                  <div className="project-links">
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    Code
+                  </a>
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </div>
                 <p>{project.description}</p>
                    <div className="tags">
                       {project.tags.map((tag, tagIndex) => (
@@ -49,19 +60,10 @@ const Portfolio = () => {
                       </span>
                       ))}
                     </div>
-                <div className="project-links">
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    Code
-                  </a>
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                    Live Demo
-                  </a>
-                </div>
-              </div>
-                  <p className="project-image">   
-                  <img src={project.image}></img>
-                  </p>
               
+              
+                 
+              </div>
             </div>
           ))}
         </div>
