@@ -31,6 +31,17 @@
     font-size: 1.1rem;
   }
   
+  .career-journey a {
+    color: #4b5563;
+    text-decoration-style: dotted;
+    text-decoration-color:#4b5563 ;
+    /*transition: color 0.2s;*/
+  }
+  .career-journey a:hover  {
+    color: #87CEEB;
+  
+  }
+
   .journey-highlight {
     display: flex;
     align-items: center;
