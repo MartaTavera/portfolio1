@@ -19,7 +19,7 @@ import Teaching from '../../assets/Teaching-moment.png'
                 </div>
     
                 <div className="journey-highlight">
-                <p>Watching various software products evolve over the years sparked a fundamental shift in my thinking. I began to see software development not simply as a tool for other disciplines, but as a fascinating field worthy of study in its own right.While homeschooling my children, I pursued online programming courses that only deepened my growing interest. Eventually, I decided to take the leap and commit fully to this new path by enrolling in a software development bootcamp, transforming what began as scientific necessity into a passionate career pursuit.</p>
+                <p>Watching various software products evolve over the years sparked a fundamental shift in my thinking. I began to see software development not simply as a tool for other disciplines, but as a fascinating field worthy of study in its own right. While homeschooling my children, I pursued online programming courses that only deepened my growing interest. Eventually, I decided to take the leap and commit fully to this new path by enrolling in a software development bootcamp, transforming what began as scientific necessity into a passionate career pursuit.</p>
                 <img src={Teaching} alt="Classroom teaching" className="journey-image" />
                  </div>
     
