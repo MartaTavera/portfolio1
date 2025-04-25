@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact.tsx';
 import About from './components/about/About.tsx';
 import Home from './components/home/home.tsx';
 import Projects from './components/projects/Projects.tsx';
+import Tools from './components/tools/tools.tsx';
 
 const App: React.FC = () => {
 
@@ -13,9 +14,9 @@ const App: React.FC = () => {
      <Navbar />     
        <div className="LinksContainer">
       <Home/>
+      <Tools/>
       <About/>
       <Projects/>
-     
       <Contact/>
       </div>  
     </div>

@@ -9,7 +9,7 @@ const Home = () =>{
   const personalInfo = {
     name: "Marta Tavera",
     title: "Software Developer",
-    description: "I'm a passionate full-stack developer focused on creating impactful web applications.",
+    description: "Former physicist and teacher turned software engineer who builds software with both analytical rigor and human-centered design.",
     email: "martatatvera@gmail.com",
     github: "https://github.com/MartaTavera",
     linkedin: "https://www.linkedin.com/in/marta-tavera-3421a823/"

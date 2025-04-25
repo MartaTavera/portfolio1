@@ -48,15 +48,17 @@
   
   .projects {
     width: 100%; 
-    margin: 0 auto;
+
   }
   
   .projects-grid {
     display:flex;
-   justify-content: space-between;
-   gap: 1rem;
+   justify-content:center;
+   gap: 1rem
+ 
 }
     
+
   .project-card { 
     background-color:#E0FFFF;
     border-radius: 0.5rem;
@@ -68,8 +70,37 @@
     align-items: flex-start;
     gap: 10px; 
     width:25%;
+    
   }
   
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.project-card {
+  /* 4 columns on large screens */
+  flex: 0 0 calc(25% - 0.65rem);
+  /* Account for gap: (100% - (3 * 1rem gap)) / 4 columns */
+}
+
+
+/* 2 columns on medium screens */
+@media (max-width: 900px) {
+  .project-card {
+    flex: 0 0 calc(50% - 0.5rem);
+    /* (100% - (1 * 1rem gap)) / 2 columns */
+  }
+}
+
+/* 1 column on small screens */
+@media (max-width: 600px) {
+  .project-card {
+    flex: 0 0 100%;
+  }
+}
+
   .project-info {
     flex: 1; 
   }
@@ -142,5 +173,5 @@
   @media (max-width: 768px) {
     .projects-grid {
       display: flex;
-    }
+      flex-direction: column;    }
   }
