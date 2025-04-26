@@ -4,7 +4,6 @@ import { FaReact, FaJs,  FaNodeJs, FaSass, FaBootstrap, FaLinux, FaGitAlt } from
 import { SiPostgresql,  SiPython,  SiSqlite, SiSharp, SiMysql } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
 import { AiFillHtml5 } from 'react-icons/ai';
-import { GrGooglePlus } from 'react-icons/gr';
 import { VscCode } from 'react-icons/vsc';
 import { JSX } from 'react';
 

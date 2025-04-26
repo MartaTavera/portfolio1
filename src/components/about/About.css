@@ -14,8 +14,6 @@
   margin-bottom: 0rem;
 }
 
-
-
  h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -52,18 +50,20 @@
     align-items: center;
     gap: 1rem;
     margin: 0.5rem 0;
-   
   }
+
   
   .journey-image {
-    width: 90%;
+    
+    max-width: 350px;
+    width: auto;
     height: auto;
-    object-fit: cover;
+    object-fit: contain; 
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
-  
+
   .journey-image:hover {
     transform: scale(1.03);
   }
