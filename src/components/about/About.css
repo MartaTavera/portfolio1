@@ -10,6 +10,11 @@
     padding-right: 1rem;
 }
 
+.aboutContainer h2{
+  margin-bottom: 0rem;
+}
+
+
 
  h2 {
     font-size: 2rem;
@@ -21,7 +26,7 @@
 
   .career-journey {
     max-width: 1000px;
-    margin: 3rem auto;
+    margin: 1rem auto 1rem auto;
     padding: 0 1.5rem;
     line-height: 1.6;
   }

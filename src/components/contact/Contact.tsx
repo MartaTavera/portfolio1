@@ -6,9 +6,9 @@ export default function Contact(){
 
         <div className="ContactContainer" id="contact">
             <h2>Contact Me </h2>
-            <p>mynewemailaddress@somemail.com</p>
             
         </div>
     )
 
 }
+

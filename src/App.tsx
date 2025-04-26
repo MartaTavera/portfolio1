@@ -6,6 +6,7 @@ import About from './components/about/About.tsx';
 import Home from './components/home/home.tsx';
 import Projects from './components/projects/Projects.tsx';
 import Tools from './components/tools/tools.tsx';
+import ContactForm from './components/contact/ContactForm.tsx';
 
 const App: React.FC = () => {
 
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <About/>
       <Projects/>
       <Contact/>
+      <ContactForm/>
       </div>  
     </div>
   );
