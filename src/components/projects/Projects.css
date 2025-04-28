@@ -16,29 +16,6 @@
     margin-bottom: 1.5rem;
   }
   
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  }
-  .icon{
-    width: 24px;
-    height:24px;
-  }
-  .social-links a {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #4b5563;
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-  
-  .social-links a:hover {
-    color: #111827;
-  }
-  
   .projects h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -177,6 +154,25 @@
   
   .project-links a:hover {
     color: #e31ab8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .projects {
+      color: white;
+      background-color:#213547;
+    }
+    .header h1 {
+      color: rgb(255, 255, 255);
+    }
+    .header h2{
+      color:white;
+    }
+    .projects h2{
+      color:white;
+    }
+    .header p{
+      color: white;
+    }
   }
 
  

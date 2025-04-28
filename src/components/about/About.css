@@ -32,6 +32,7 @@
   .journey-content p {
     margin-bottom: 0.2rem;
     font-size: 1.1rem;
+    color: #4b5563;
   }
   
   .career-journey a {
@@ -83,3 +84,26 @@
     .aboutContainer{
         padding-top: 0;
     }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color: white;
+        background-color:#213547;
+      }
+    .aboutContainer{
+      color:white;
+    background-color:#213547;
+   
+    }
+      .aboutContainer h2{
+        color:white 
+      }
+      .journey-content p {
+        color: #D3D3D3;
+      }
+      .career-journey a {
+        color: #D3D3D3;
+        text-decoration-style: dotted;
+        text-decoration-color:#D3D3D3 ;
+    }
+  }

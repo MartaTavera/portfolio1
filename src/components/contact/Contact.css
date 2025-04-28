@@ -1,6 +1,6 @@
 .ContactContainer
 {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,3 +118,21 @@ h2 {
       width: 100%;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color: white;
+      background-color:#213547;
+    }
+  .ContactContainer{
+    color:white;
+  background-color:#213547;
+ 
+  }
+  .form-group ::placeholder{
+    color: rgb(189, 187, 187);
+  }
+  .form-group input{
+    color:black;
+  }
+}
