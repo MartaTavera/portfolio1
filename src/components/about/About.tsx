@@ -14,7 +14,7 @@ import Teaching from '../../assets/Teaching-moment.png'
                 a <a href="https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/bofker/alma9918222474401631" target="_blank" rel="noopener noreferrer">MSc</a> and a <a href="https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/1r887gn/alma992991352681401631" target="_blank" rel="noopener noreferrer">PhD</a> in Particle Physics.</p>
                 <div className="journey-highlight">
                     <img src={ALTASEvent} alt="Particle physics detector" className="journey-image" />
-                    <p>It was during my doctoral research that I first encountered programming,learning C++ for data analysis, alongside Fortran, Bash, and Perl scripting to manage computational jobs. These tools were merely instruments for scientific discovery, not ends in themselves.
+                    <p>It was during my doctoral research that I first encountered programming, learning C++ for data analysis, alongside Fortran, Bash, and Perl scripting to manage computational jobs. These tools were merely instruments for scientific discovery, not ends in themselves.
                       After several years in <a href="https://inspirehep.net/authors/1054726" target="_blank" rel="noopener noreferrer">physics research</a>, I pivoted to education, experiencing technology from a completely different perspective, as a user rather than a creator.</p>
                 </div>
     

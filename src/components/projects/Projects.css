@@ -27,7 +27,9 @@
   .projects {
     width: 100%; 
   }
-  
+  .projects a{
+    text-decoration: none;
+  }
   .projects-grid {
     display:flex;
     flex-wrap: wrap;

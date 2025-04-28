@@ -34,7 +34,7 @@ const projects: Project[]= [
     {
       title: "BusBoard",
       image:BusBoardImg,
-      description: "BusBoard is a command-line interface (CLI) application that provides real-time bus arrival information for locations in London using the Trasport for london and Postcodes.io APIs. Users can search by postcode to find the next five buses arriving at the two closest bus stops within a 500-meter radius. The application displays bus numbers, destinations, and arrival times in minutes for each stop.t",
+      description: "BusBoard is a command-line interface (CLI) application that provides real-time bus arrival information for locations in London using the Transport for London and Postcodes.io APIs. Users can search by postcode to find the next five buses arriving at the two closest bus stops within a 500-meter radius. The application displays bus numbers, destinations, and arrival times in minutes for each stop.",
       tags: ["Node", "WebSockets", "Express", "JavaScript", "REST API", "Xterm",],
       githubLink: "https://github.com/MartaTavera/Busboard/",
       liveLink: "https://busboard.onrender.com"

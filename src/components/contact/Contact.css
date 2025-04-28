@@ -135,4 +135,7 @@ h2 {
   .form-group input{
     color:black;
   }
+  .form-group textarea{
+    color:black;
+  }
 }
