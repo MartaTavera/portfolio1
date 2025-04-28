@@ -3,7 +3,7 @@ import './Projects.css';
 
 const Projects = () => {
     return(
-        <section className="projects">
+        <section className="projects" id="projects">
         <h2>Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (

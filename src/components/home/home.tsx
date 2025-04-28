@@ -17,7 +17,7 @@ const Home = () =>{
 
 
   return (
-    <div className="portfolio">
+    <div className="portfolio" >
       <header className= "header">
         <h1>{personalInfo.name}</h1>
         <h2>{personalInfo.title}</h2>
