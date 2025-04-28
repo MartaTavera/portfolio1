@@ -20,9 +20,7 @@ const Tools = () => {
       css: <DiCss3 size={size} color="#1572B6" />,
       html: <AiFillHtml5 size={size} color="#E34F26" />,
       postgresql: <SiPostgresql size={size} color="#336791" />,
-     
       python: <SiPython size={size} color="#3776AB" />,
-      
       sqlite: <SiSqlite size={size} color="#003B57" />,
       //gcp: <GrGooglePlus size={size} color="#4285F4" />,
       linux: <FaLinux size={size} color="#FCC624" />,
