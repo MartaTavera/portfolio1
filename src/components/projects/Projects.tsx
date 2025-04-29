@@ -9,9 +9,11 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-info">
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><h3>{project.title}</h3></a>
+                <h3><a href={project.githubLink} target="_blank" rel="noopener noreferrer">{project.title}</a></h3>
+                  
                  <div className="project-image">   
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer"> <img src={project.image}></img></a>
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer"> <img src={project.image}></img>
+                  </a>
                   </div>
                   <div className="project-links">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer">

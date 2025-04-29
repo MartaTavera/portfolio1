@@ -27,9 +27,7 @@
   .projects {
     width: 100%; 
   }
-  .projects a{
-    text-decoration: none;
-  }
+  
   .projects-grid {
     display:flex;
     flex-wrap: wrap;
@@ -80,17 +78,15 @@
     flex-direction: column; /* Ensure column layout on smallest screens */
   }
   
-  .project-image {
-    width: 100% !important; /* Force full width on mobile */
-    height: auto !important; /* Allow height to adjust properly */
-    max-height: 200px;
-  }
 }
   .project-info {
     flex: 1; 
-    width: 100%
+    width: 100%;
+    
   }
-  
+  .project-info a{
+    text-decoration: none;
+  }
   .project-info p{
     text-align: justify;
   }
@@ -99,9 +95,8 @@
     height: auto;
     display: flex;
     justify-content: center;
-
   }
-  
+
   .project-image img {
     max-width: 100%;
     height:auto;
@@ -177,4 +172,14 @@
     }
   }
 
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color: white;
+      background-color:#213547;
+    }
+  .aboutContainer{
+    color:white;
+  background-color:#213547;
  
+  }
+}
