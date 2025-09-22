@@ -48,7 +48,7 @@ const projects: Project[]= [
       tags:["React", "TypeScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/TimesTables",
       liveLink:"https://MartaTavera.github.io/TimesTables/"
-    }
+    },
     {
       title:"Photo Resizer",
       image:PhotoR,
