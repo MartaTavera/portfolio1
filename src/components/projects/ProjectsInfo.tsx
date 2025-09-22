@@ -3,6 +3,7 @@ import MarsMissionImg from "../../assets/Mars-Mission.png"
 import WhaleSpottingImg from "../../assets/WhaleSpotting.png"
 import BusBoardImg from "../../assets/BusBoard.png"
 import TimesTablesImg from "../../assets/TimesTables.png"
+import PhotoR from "../../assets/TimesTables.png"
 
 export interface Project {
     title: string;
@@ -47,6 +48,15 @@ const projects: Project[]= [
       tags:["React", "TypeScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/TimesTables",
       liveLink:"https://MartaTavera.github.io/TimesTables/"
+    }
+    {
+      title:"Photo Resizer",
+      image:PhotoR,
+
+      description: "HTML app that allows you to reduce the size of your photos. You can either upload existing pictures or use the app to take the photo and resize before saving.",
+      tags:["HTML"],
+      githubLink: "https://github.com/MartaTavera/PhotoResizer-camera",
+      liveLink:"https://MartaTavera.github.io/PhotoResizer-camera/"
     }
   ];
 export default projects
