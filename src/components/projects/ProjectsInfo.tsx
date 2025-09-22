@@ -3,7 +3,7 @@ import MarsMissionImg from "../../assets/Mars-Mission.png"
 import WhaleSpottingImg from "../../assets/WhaleSpotting.png"
 import BusBoardImg from "../../assets/BusBoard.png"
 import TimesTablesImg from "../../assets/TimesTables.png"
-import PhotoR from "../../assets/TimesTables.png"
+import PhotoR from "../../assets/PhotoR.png"
 
 export interface Project {
     title: string;
