@@ -67,7 +67,7 @@ const projects: Project[]= [
       tags:[" HTML5 Canvas", "JavaScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/PlottingLines",
       liveLink:"https://martatavera.github.io/PlottingLines/"
-    }
+    },
     {
       title:"Linear Equations Memory Game",
       image: MemoryGameImg,
