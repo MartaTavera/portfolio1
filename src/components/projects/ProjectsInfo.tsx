@@ -74,7 +74,7 @@ const projects: Project[]= [
       description: "An interactive educational game that helps students learn and practice matching linear equations with their corresponding graphs. Built with React and styled using Tailwind CSS, this memory-matching game combines mathematical learning with engaging gameplay.",
       tags:[" HTML5","React", "JavaScript", "Tailwind","CSS"],
       githubLink: "https://https://github.com/MartaTavera/LineEquation-React-Game",
-      liveLink:"https://martatavera.github.io/PlottingLines/"
+      liveLink:"https://github.com/MartaTavera/LineEquation-React-Game"
     }
 
   ];
