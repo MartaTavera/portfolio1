@@ -30,10 +30,7 @@ const Projects = () => {
                         {tag}
                       </span>
                       ))}
-                    </div>
-              
-              
-                 
+                    </div>          
               </div>
             </div>
           ))}

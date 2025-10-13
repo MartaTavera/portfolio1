@@ -55,8 +55,7 @@
 
   
   .journey-image {
-    
-    max-width: 350px;
+    max-width: 270px;
     width: auto;
     height: auto;
     object-fit: contain; 

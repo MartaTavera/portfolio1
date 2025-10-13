@@ -6,7 +6,7 @@ h2 {
     color: #111827;
   }
 
-  .ToolsContainer
+  .toolsContainer
 {
     width: 100%;
     display: flex;
@@ -16,7 +16,7 @@ h2 {
     background-color: white;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 20rem;
+    margin-bottom: 5rem;
 }
 .toolsContainer {
     padding: 2rem 0;

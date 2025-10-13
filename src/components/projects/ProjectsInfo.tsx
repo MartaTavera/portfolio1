@@ -5,6 +5,7 @@ import BusBoardImg from "../../assets/BusBoard.png"
 import TimesTablesImg from "../../assets/TimesTables.png"
 import PhotoR from "../../assets/PhotoR.png"
 import LinePlotImg from "../../assets/LinePlotting.png"
+import MemoryGameImg from "../../assets/EquationLineMemoryCard.jpg"
 
 export interface Project {
     title: string;
@@ -54,8 +55,8 @@ const projects: Project[]= [
       title:"Photo Resizer",
       image:PhotoR,
 
-      description: "HTML app that allows you to reduce the size of your photos. You can either upload existing pictures or use the app to take the photo and resize before saving.",
-      tags:["HTML"],
+      description: "A browser-based photo resizing application built with HTML5, CSS3, and JavaScript. Implements WebRTC MediaDevices API for camera capture and Canvas API for client-side image compression. Features batch processing, progressive JPEG compression, and complete privacy with zero server costs.",
+      tags:["HTML", "JavaScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/PhotoResizer-camera",
       liveLink:"https://MartaTavera.github.io/PhotoResizer-camera/"
     },
@@ -67,5 +68,14 @@ const projects: Project[]= [
       githubLink: "https://github.com/MartaTavera/PlottingLines",
       liveLink:"https://martatavera.github.io/PlottingLines/"
     }
+    {
+      title:"Linear Equations Memory Game",
+      image: MemoryGameImg,
+      description: "An interactive educational game that helps students learn and practice matching linear equations with their corresponding graphs. Built with React and styled using Tailwind CSS, this memory-matching game combines mathematical learning with engaging gameplay.",
+      tags:[" HTML5","React", "JavaScript", "Tailwind","CSS"],
+      githubLink: "https://https://github.com/MartaTavera/LineEquation-React-Game",
+      liveLink:"https://martatavera.github.io/PlottingLines/"
+    }
+
   ];
 export default projects
