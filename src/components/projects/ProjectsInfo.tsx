@@ -66,7 +66,7 @@ const projects: Project[]= [
       description: "A web-based educational application designed for GCSE Mathematics students to explore linear equations through hands-on discovery. It starts with an empty-state design to encourage student-driven exploration and provides an interactive graph with click-to-plot functionality for manual point placement, toggle controls to show/hide the line, and a side-by-side table and graph layout for immediate visual feedback.",
       tags:[" HTML5 Canvas", "JavaScript", "CSS"],
       githubLink: "https://github.com/MartaTavera/PlottingLines",
-      liveLink:"https://martatavera.github.io/PlottingLines/"
+      liveLink:"https://github.com/MartaTavera/LinearEquations/deployments/github-pages"
     },
     {
       title:"Linear Equations Memory Game",
